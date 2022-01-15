@@ -192,7 +192,7 @@ But, there are any other vulnerabilities? OWASP wrote a really nice dependency a
 100 23.0M  100 23.0M    0     0  7653k      0  0:00:03  0:00:03 --:--:-- 8899k
 ```
 
-Scanning one more time:
+[Scanning](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html) one more time:
 
 ```shell
 [josevnz@dmaf5 Downloads]$ ~/Downloads/dependency-check/bin/dependency-check.sh --prettyPrint --format HTML -scan /home/josevnz/Downloads/ghidra_10.0.4_PUBLIC/Ghidra/Framework/Generic/lib/
@@ -239,4 +239,5 @@ The report could generate false dependencies, there is a [way to minimize them](
 This was quick and intense, so let's summarize a few things we learned:
 
 * You can scan your python projects, for third party library [vulnerabilities](https://www.nist.gov/) using [pip-audit](https://github.com/trailofbits/pip-audit)
+* Same applies to Java. There are specialized tools out there or generic ones like [OWASP Dependency-CLI](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html)
 * As a plus, you can see how you can [quickly wrap your code](https://github.com/josevnz/EnableSysadminRssReader) using the new setuptools packaging rules (setup.cfg as opposed to setup.py)
