@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xml:base="https://www.redhat.com/sysadmin/">
+  <channel>
+    <title>Enable Sysadmin</title>
+    <link>https://www.redhat.com/sysadmin/</link>
+    <description/>
+    <language>en</language>
+    <atom:link href="https://www.redhat.com/sysadmin/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+  <title>3 tools for troubleshooting packet filtering</title>
+  <link>https://www.redhat.com/sysadmin/troubleshoot-packet-filters-network</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/troubleshoot-packet-filters-network" rel="bookmark"&gt;&lt;span property="schema:name"&gt;3 tools for troubleshooting packet filtering&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="3 tools for troubleshooting packet filtering" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Woman monitoring data center systems" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2021-10/monitor-linux-system.jpg?itok=3iQmfFc0" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;&lt;p&gt;&lt;sup&gt;Photo by &lt;a href="https://www.pexels.com/@divinetechygirl?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Christina Morillo&lt;/a&gt; from &lt;a href="https://www.pexels.com/photo/software-engineer-using-laptop-1181341/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Pexels&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Use Nmap, Wireshark, and tcpdump to sniff out router problems on your network.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 14, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/dgarn" class="article-author article-author--primary"&gt;Damon Garn&lt;span class="author-affiliate"&gt; (Red Hat)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/networking" class="btn btn-primary btn-sm font-weight-bold"&gt;Networking&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/troubleshooting" class="btn btn-primary btn-sm font-weight-bold"&gt;Troubleshooting&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/monitoring" class="btn btn-primary btn-sm font-weight-bold"&gt;Monitoring&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/troubleshoot-packet-filters-network" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Fri, 17 Dec 2021 19:26:18 +0000</pubDate>
+    <dc:creator>dgarn</dc:creator>
+    <guid isPermaLink="false">5511 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>How to troubleshoot DHCP communication problems on your network</title>
+  <link>https://www.redhat.com/sysadmin/troubleshoot-network-dhcp-configuration</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/troubleshoot-network-dhcp-configuration" rel="bookmark"&gt;&lt;span property="schema:name"&gt;How to troubleshoot DHCP communication problems on your network&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="How to troubleshoot DHCP communication problems on your network" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="How to use mtr" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2020-11/network_problems.jpg?itok=aoP0O78W" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;&lt;a href="https://www.flickr.com/photos/31579588@N00/2641452698" rel="noopener" target="_blank"&gt;"Network problems"&lt;/a&gt; by &lt;a href="https://www.flickr.com/photos/31579588@N00" rel="noopener" target="_blank"&gt;Jeremiah Ro&lt;/a&gt; is licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/2.0/?ref=ccsearch&amp;atype=rich" rel="noopener" target="_blank"&gt;CC BY-SA 2.0&lt;/a&gt;&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Use Nmap, tcpdump, and Wireshark to discover why your enterprise switch and clients aren't communicating IP configurations correctly.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 13, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/dgarn" class="article-author article-author--primary"&gt;Damon Garn&lt;span class="author-affiliate"&gt; (Red Hat)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/troubleshooting" class="btn btn-primary btn-sm font-weight-bold"&gt;Troubleshooting&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/networking" class="btn btn-primary btn-sm font-weight-bold"&gt;Networking&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/troubleshoot-network-dhcp-configuration" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Mon, 13 Dec 2021 17:09:37 +0000</pubDate>
+    <dc:creator>dgarn</dc:creator>
+    <guid isPermaLink="false">5481 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>Top 10 Ansible tutorials of 2021</title>
+  <link>https://www.redhat.com/sysadmin/top-ansible-articles-2021</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/top-ansible-articles-2021" rel="bookmark"&gt;&lt;span property="schema:name"&gt;Top 10 Ansible tutorials of 2021&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="Top 10 Ansible tutorials of 2021" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Automating ServiceNow with Red Hat Ansible Automation Platform" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2021-05/Automation1.jpg?itok=uqSKk1uN" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;&lt;p&gt;Photo by &lt;strong&gt;&lt;a href="https://www.pexels.com/@cottonbro?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;cottonbro&lt;/a&gt;&lt;/strong&gt; from &lt;strong&gt;&lt;a href="https://www.pexels.com/photo/industry-technology-architecture-factory-5532660/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Pexels&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Whether you're new to Ansible or looking to level up your automation skills, you'll find something of value in 2021's top Ansible articles.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 12, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/ricardo-gerardi" class="article-author article-author--primary"&gt;Ricardo Gerardi&lt;span class="author-affiliate"&gt; (Red Hat, Sudoer)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/ansible" class="btn btn-primary btn-sm font-weight-bold"&gt;Ansible&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/automation" class="btn btn-primary btn-sm font-weight-bold"&gt;Automation&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/year-review" class="btn btn-primary btn-sm font-weight-bold"&gt;Year in review&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/top-ansible-articles-2021" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Wed, 05 Jan 2022 16:44:43 +0000</pubDate>
+    <dc:creator>Ricardo Gerardi</dc:creator>
+    <guid isPermaLink="false">5546 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>How to use Podman to get information about your containers</title>
+  <link>https://www.redhat.com/sysadmin/container-information-podman</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/container-information-podman" rel="bookmark"&gt;&lt;span property="schema:name"&gt;How to use Podman to get information about your containers&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="How to use Podman to get information about your containers" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Multicolored containers at port" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2021-12/red-grey-blue-containers_1.jpg?itok=ZIiBaq-F" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;&lt;p&gt;&lt;sup&gt;&lt;a href="https://pixabay.com/photos/container-port-crane-truck-loading-6843180/" target="_blank"&gt;Mylene2401&lt;/a&gt;. Pixabay&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Use the podman ps command to get size, resource consumption, and other information about your containers.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 11, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/alexon-oliveira" class="article-author article-author--primary"&gt;Alexon Oliveira&lt;span class="author-affiliate"&gt; (Red Hat, Sudoer)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/podman" class="btn btn-primary btn-sm font-weight-bold"&gt;Podman&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/containers" class="btn btn-primary btn-sm font-weight-bold"&gt;Containers&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/container-information-podman" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Mon, 13 Dec 2021 18:43:27 +0000</pubDate>
+    <dc:creator>Alexon Oliveira</dc:creator>
+    <guid isPermaLink="false">5491 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>Create fast, easy, and repeatable containers with Podman and shell scripts</title>
+  <link>https://www.redhat.com/sysadmin/create-containers-podman-quickly</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/create-containers-podman-quickly" rel="bookmark"&gt;&lt;span property="schema:name"&gt;Create fast, easy, and repeatable containers with Podman and shell scripts&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="Create fast, easy, and repeatable containers with Podman and shell scripts" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image blazy--field-media-image--block-1 blazy--view blazy--view--listicle blazy--view--listicle--block-1 image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Blue, white, orange, and brown containers stacked" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/card/public/2021-12/containers-stacked_1.jpg?itok=oE61IegF" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20700%20420'%2F%3E" width="700" height="420" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;&lt;p&gt;&lt;sup&gt;&lt;a href="https://www.pexels.com/photo/blue-white-orange-and-brown-container-van-163726/" target="_blank"&gt;Pexels&lt;/a&gt;, CC0&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Get started with containers in a fast, repeatable way through the familiar shell scripting interface.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 10, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/alexon-oliveira" class="article-author article-author--primary"&gt;Alexon Oliveira&lt;span class="author-affiliate"&gt; (Red Hat, Sudoer)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/podman" class="btn btn-primary btn-sm font-weight-bold"&gt;Podman&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/containers" class="btn btn-primary btn-sm font-weight-bold"&gt;Containers&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/create-containers-podman-quickly" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Mon, 13 Dec 2021 18:09:02 +0000</pubDate>
+    <dc:creator>Alexon Oliveira</dc:creator>
+    <guid isPermaLink="false">5486 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>Writing Python applications, building Linux labs, and more tips for sysadmins</title>
+  <link>https://www.redhat.com/sysadmin/top-sysadmin-articles-december-2021</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/top-sysadmin-articles-december-2021" rel="bookmark"&gt;&lt;span property="schema:name"&gt;Writing Python applications, building Linux labs, and more tips for sysadmins&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="Writing Python applications, building Linux labs, and more tips for sysadmins" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Snowy mountain road" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2022-01/snow-road-mountains-december.jpg?itok=cthMEors" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;&lt;p&gt;&lt;sup&gt;Photo by &lt;a href="https://www.pexels.com/@zachtheshooter?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Zachary DeBottis&lt;/a&gt; from &lt;a href="https://www.pexels.com/photo/green-pine-trees-on-snow-covered-mountain-3607934/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Pexels&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Check out Enable Sysadmin's top 10 articles from December 2021.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 7, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/vwalker" class="article-author article-author--primary"&gt;Vicki Walker&lt;span class="author-affiliate"&gt; (Red Hat)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/python" class="btn btn-primary btn-sm font-weight-bold"&gt;Python&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/linux" class="btn btn-primary btn-sm font-weight-bold"&gt;Linux&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/top-sysadmin-articles-december-2021" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Tue, 04 Jan 2022 17:08:33 +0000</pubDate>
+    <dc:creator>vwalker</dc:creator>
+    <guid isPermaLink="false">5541 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>Top 10 container guides for sysadmins</title>
+  <link>https://www.redhat.com/sysadmin/containers-articles-2021</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/containers-articles-2021" rel="bookmark"&gt;&lt;span property="schema:name"&gt;Top 10 container guides for sysadmins&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="Top 10 container guides for sysadmins" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Containers from above" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2020-10/containers-from-above.jpg?itok=tnVk_dHV" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Learn what's happening in the world of containers and how to better manage this technology.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 7, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/dwalsh" class="article-author article-author--primary"&gt;Dan Walsh&lt;span class="author-affiliate"&gt; (Red Hat)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/containers" class="btn btn-primary btn-sm font-weight-bold"&gt;Containers&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/year-review" class="btn btn-primary btn-sm font-weight-bold"&gt;Year in review&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/containers-articles-2021" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Mon, 13 Dec 2021 20:29:01 +0000</pubDate>
+    <dc:creator>Dan Walsh</dc:creator>
+    <guid isPermaLink="false">5501 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>Top 10 Linux security tutorials for sysadmins from 2021</title>
+  <link>https://www.redhat.com/sysadmin/top-security-articles-2021</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/top-security-articles-2021" rel="bookmark"&gt;&lt;span property="schema:name"&gt;Top 10 Linux security tutorials for sysadmins from 2021&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="Top 10 Linux security tutorials for sysadmins from 2021" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Top 13 security articles of 2020" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2020-12/Top_Security_Articles_2020.jpg?itok=ukAHwW9G" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;Image by &lt;a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690286"&gt;Free-Photos&lt;/a&gt; from &lt;a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690286"&gt;Pixabay&lt;/a&gt;&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Even as the world changes around us, the importance of IT security is one of the things that stands firm.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 6, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/joerg-kastning" class="article-author article-author--primary"&gt;Jörg Kastning&lt;span class="author-affiliate"&gt; (Red Hat Accelerator, Sudoer)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/security" class="btn btn-primary btn-sm font-weight-bold"&gt;Security&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/year-review" class="btn btn-primary btn-sm font-weight-bold"&gt;Year in review&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/linux-administration" class="btn btn-primary btn-sm font-weight-bold"&gt;Linux administration&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/top-security-articles-2021" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Wed, 01 Dec 2021 17:19:24 +0000</pubDate>
+    <dc:creator>Joerg Kastning</dc:creator>
+    <guid isPermaLink="false">5431 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>Building a container by hand using namespaces: The UTS namespace</title>
+  <link>https://www.redhat.com/sysadmin/uts-namespace</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/uts-namespace" rel="bookmark"&gt;&lt;span property="schema:name"&gt;Building a container by hand using namespaces: The UTS namespace&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="Building a container by hand using namespaces: The UTS namespace" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Man wearing a wristwatch" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2021-12/unix-time-system-uts-namespace.jpg?itok=bwBE5-Fn" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;&lt;p&gt;&lt;sup&gt;Photo by &lt;a href="https://www.pexels.com/@marius-mann-772581?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Marius Mann&lt;/a&gt; from &lt;a href="https://www.pexels.com/photo/person-wearing-round-white-analog-watch-at-10-09-1697214/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Pexels&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;The UTS namespace is not the most complicated Linux namespace, but it's quite useful, especially in the context of containers.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 5, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/steve-ovens" class="article-author article-author--primary"&gt;Steve Ovens&lt;span class="author-affiliate"&gt; (Red Hat, Sudoer)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/linux-administration" class="btn btn-primary btn-sm font-weight-bold"&gt;Linux administration&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/containers" class="btn btn-primary btn-sm font-weight-bold"&gt;Containers&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/linux" class="btn btn-primary btn-sm font-weight-bold"&gt;Linux&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/uts-namespace" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Tue, 14 Dec 2021 13:18:33 +0000</pubDate>
+    <dc:creator>Steve Ovens</dc:creator>
+    <guid isPermaLink="false">5506 at https://www.redhat.com/sysadmin</guid>
+    </item>
+<item>
+  <title>Launch Flatpaks from your terminal with easier-to-remember commands</title>
+  <link>https://www.redhat.com/sysadmin/launch-flatpaks-terminal-fuzzpak</link>
+  <description>&lt;article class="rss rss--article"&gt;&lt;h2 class="node__title"&gt;
+      &lt;a href="https://www.redhat.com/sysadmin/launch-flatpaks-terminal-fuzzpak" rel="bookmark"&gt;&lt;span property="schema:name"&gt;Launch Flatpaks from your terminal with easier-to-remember commands&lt;/span&gt;
+&lt;/a&gt;
+    &lt;/h2&gt;
+      &lt;span property="schema:name" content="Launch Flatpaks from your terminal with easier-to-remember commands" class="hidden"&gt;&lt;/span&gt;
+  &lt;span property="schema:interactionCount" content="UserComments:0" class="hidden"&gt;&lt;/span&gt;
+
+
+    &lt;figure style="margin: 2rem 0"&gt;&lt;div class="article__field-media"&gt;&lt;figure&gt;&lt;div data-blazy="" class="blazy blazy--field blazy--field-media-image image__field-media-image"&gt;
+    &lt;div class="field__label font-weight-bold visually-hidden"&gt;
+      Image    &lt;/div&gt;
+                  &lt;div class="field__item"&gt;
+
+
+
+                  &lt;div class="media media--blazy media--bundle--image media--loading is-b-loading media--image"&gt;
+&lt;img alt="Blurry words" class="media__image media__element b-lazy img-fluid" data-src="/sysadmin/sites/default/files/styles/full/public/2021-12/fuzzpak_blur.jpg?itok=KocL1Wmq" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201000%20600'%2F%3E" width="1000" height="600" loading="lazy" typeof="foaf:Image" /&gt;&lt;/div&gt;
+        
+  
+&lt;/div&gt;
+              &lt;/div&gt;
+
+  &lt;figcaption&gt;&lt;div class="image__field-media-description"&gt;&lt;p&gt;&lt;sup&gt;Photo by &lt;a href="https://www.pexels.com/@hngstrm?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Henry &amp; Co.&lt;/a&gt; from &lt;a href="https://www.pexels.com/photo/a-statement-of-words-2886015/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"&gt;Pexels&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+      &lt;/figure&gt;&lt;div style="font-size: 1.3em; margin-bottom: 2rem;"&gt;
+    
+            &lt;div class="article__field-subhead"&gt;Meet Fuzzpak, a script that helps you install apps without having to remember complex Flatpak formal names.&lt;/div&gt;
+      
+  &lt;/div&gt;
+  
+  &lt;p class="article-byline"&gt;
+  &lt;span class="article-date"&gt;
+    &lt;span class="label"&gt;Posted:&lt;/span&gt;
+    January 4, 2022
+  &lt;/span&gt;
+    &lt;span aria-hidden="true"&gt;|&lt;/span&gt;
+  &lt;span class="article-authors"&gt;
+    &lt;strong class="sr-only"&gt;by&lt;/strong&gt;
+          &lt;a href="https://www.redhat.com/sysadmin/users/skenlon" class="article-author article-author--primary"&gt;Seth Kenlon&lt;span class="author-affiliate"&gt; (Red Hat)&lt;/span&gt;&lt;/a&gt;      &lt;/span&gt;
+  &lt;/p&gt;
+
+      &lt;div class="topics"&gt;
+  &lt;strong&gt;Topics:&lt;/strong&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/software" class="btn btn-primary btn-sm font-weight-bold"&gt;Software&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/command-line-utilities" class="btn btn-primary btn-sm font-weight-bold"&gt;Command line utilities&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/linux-administration" class="btn btn-primary btn-sm font-weight-bold"&gt;Linux administration&lt;/a&gt;  
+      &lt;a href="https://www.redhat.com/sysadmin/topics/bash" class="btn btn-primary btn-sm font-weight-bold"&gt;Bash&lt;/a&gt;  
+  &lt;/div&gt;
+    &lt;div style="text-align: center; margin-bottom: 2rem;"&gt;
+        &lt;a href="https://www.redhat.com/sysadmin/launch-flatpaks-terminal-fuzzpak" style="
+      background-color:#ee0000;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Verdana;
+      font-size:19px;
+      padding:17px 29px;
+      text-decoration:none;
+    "&gt;Read the full article on redhat.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</description>
+  <pubDate>Tue, 07 Dec 2021 15:38:43 +0000</pubDate>
+    <dc:creator>skenlon</dc:creator>
+    <guid isPermaLink="false">5456 at https://www.redhat.com/sysadmin</guid>
+    </item>
+
+  </channel>
+</rss>

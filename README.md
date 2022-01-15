@@ -1,0 +1,45 @@
+# EnableSysadminRSSReader
+
+This is a simple script to show the headlines from the RedHat Enable sysadmin website RSS feed.
+
+## Author
+
+Jose Vicente Nunez (kodegeek.com@protonmail.com)
+
+# Set your virtual environment
+
+```shell
+python3 -m venv ~/virtualenv/EnableSysadminRssReader/
+. ~/virtualenv/EnableSysadminRssReader/bin/activate
+python -m pip install --upgrade pip
+```
+
+Rest of the commands explained on this file assume you have the virtual environment enabled.
+
+# Running in editable mode
+
+```shell
+pip install --editable .
+```
+
+# Running unit tests
+
+```shell
+(EnableSysadminRssReader) [josevnz@dmaf5 EnableSysadminRssReader]$ python -m unittest tests/test_reader.py
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.125s
+
+OK
+```
+
+# Building the package
+
+If you don't have 'build' installed:
+
+```shell
+python -m build 
+pip install dist/EnableSysadminRssReader-*-py3-none-any.whl
+```
+
+

@@ -1,0 +1,6 @@
+requests==2.27.1
+rich==11.0.0
+lxml==4.7.1
+build==0.7.0
+wheel==0.37.1
+setuptools==60.5.0
