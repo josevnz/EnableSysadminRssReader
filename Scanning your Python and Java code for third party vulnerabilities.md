@@ -240,4 +240,4 @@ This was quick and intense, so let's summarize a few things we learned:
 
 * You can scan your python projects, for third party library [vulnerabilities](https://www.nist.gov/) using [pip-audit](https://github.com/trailofbits/pip-audit)
 * Same applies to Java. There are specialized tools out there or generic ones like [OWASP Dependency-CLI](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html)
-* As a plus, you can see how you can [quickly wrap your code](https://github.com/josevnz/EnableSysadminRssReader) using the new setuptools packaging rules (setup.cfg as opposed to setup.py)
+* As a plus, you can see how you can [quickly wrap your Python code](https://github.com/josevnz/EnableSysadminRssReader) using the new setuptools packaging rules (setup.cfg as opposed to setup.py)
