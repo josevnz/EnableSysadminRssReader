@@ -16,6 +16,13 @@ python3 -m venv ~/virtualenv/EnableSysadminRssReader/
 python -m pip install --upgrade pip
 ```
 
+Get the sources:
+
+```shell
+git clone git@github.com:josevnz/EnableSysadminRssReader.git
+cd EnableSysadminRssReader
+```
+
 Rest of the commands explained on this file assume you have the virtual environment enabled.
 
 # Running in editable mode
