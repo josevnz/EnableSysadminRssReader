@@ -230,9 +230,9 @@ Dependency-Check is an open source tool performing a best effort analysis of 3rd
 [INFO] Writing report to: /home/josevnz/Downloads/./dependency-check-report.html
 ```
 
-The report could generate false dependencies, there is a [way to minimize them](https://jeremylong.github.io/DependencyCheck/general/suppression.html):
+The report could generate false dependencies, and there is a [way to minimize them](https://jeremylong.github.io/DependencyCheck/general/suppression.html). But the value of this tool is great, as it can be added to your continuous integration pipelines:
 
-
+![Scan results for Ghidra](https://github.com/josevnz/EnableSysadminRssReader/raw/main/ghidra_owasp_scan.png)
 
 # What did we learn?
 
