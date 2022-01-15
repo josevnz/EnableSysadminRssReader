@@ -192,7 +192,7 @@ But, there are any other vulnerabilities? OWASP wrote a really nice dependency a
 100 23.0M  100 23.0M    0     0  7653k      0  0:00:03  0:00:03 --:--:-- 8899k
 ```
 
-[Scanning](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html) one more time:
+[Scanning](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html) the vulnerable Ghidra (10.0.4) one more time:
 
 ```shell
 [josevnz@dmaf5 Downloads]$ ~/Downloads/dependency-check/bin/dependency-check.sh --prettyPrint --format HTML -scan /home/josevnz/Downloads/ghidra_10.0.4_PUBLIC/Ghidra/Framework/Generic/lib/
