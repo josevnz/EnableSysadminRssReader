@@ -130,7 +130,7 @@ My favorite quote from [Poltergeist](https://www.imdb.com/title/tt0084516/?ref_=
 
 # Side note: What about an IDE, can they tell you if you are using a stale library?
 
-Yes, they can. For example Pycharm and VSCode tell you if there is a newer version of a third party library:
+Yes, they can. For example Pycharm and VSCode tell you if there is a newer version of a third party library (on this example I'm used an outdated version of Rich):
 
 ![](https://github.com/josevnz/EnableSysadminRssReader/raw/main/pycharm_requirements_warning.png)
 
