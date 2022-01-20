@@ -128,6 +128,14 @@ My favorite quote from [Poltergeist](https://www.imdb.com/title/tt0084516/?ref_=
 
 > Tangina: [This house is clean.](https://www.imdb.com/title/tt0084516/quotes/qt0304381)
 
+# Side note: What about an IDE, can they tell you if you are using a stale library?
+
+Yes, they can. For example Pycharm and VSCode tell you if there is a newer version of a third party library:
+
+![](https://raw.githubusercontent.com/josevnz/EnableSysadminRssReader/main/pycharm_requirements_warning.png)
+
+You should not ignore this warnings.
+
 # What did we learn?
 
 Let's summarize a few things we learned:
