@@ -42,13 +42,19 @@ Ran 2 tests in 0.125s
 OK
 ```
 
-# Building the package
+# Building and installing the package
 
-If you don't have 'build' installed:
+Using build:
 
 ```shell
 python -m build 
 pip install dist/EnableSysadminRssReader-*-py3-none-any.whl
 ```
 
+If build is not installed (you will get a deprecation warning but it will work):
+
+```shell
+python setup.py bdist_wheel
+pip install dist/EnableSysadminRssReader-*-py3-none-any.whl
+```
 
