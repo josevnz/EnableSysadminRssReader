@@ -58,3 +58,6 @@ python setup.py bdist_wheel
 pip install dist/EnableSysadminRssReader-*-py3-none-any.whl
 ```
 
+## Don't miss the tutorial that comes with the code
+
+[The Tutorial](Scanning%20your%20Python%20code%20for%20third%20party%20vulnerabilities.md)
