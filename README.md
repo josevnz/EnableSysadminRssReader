@@ -1,5 +1,7 @@
 # EnableSysadminRSSReader
 
+![](mazinger-z.png)
+
 This is a simple script to show the headlines from the RedHat Enable sysadmin website RSS feed.
 
 ![Articles for the day](https://raw.githubusercontent.com/josevnz/EnableSysadminRssReader/main/rssenablesysadminreader.png)
