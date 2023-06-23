@@ -1,5 +1,11 @@
 # EnableSysadminRSSReader
 
+## NOTE
+
+As of Jun 23 2023 this repository will be marked as read-only. Enable Sysadmin was disbanded by RedHat after a round of layoffs together with OpenSource.com. This code may not work at all in the future as the site is read only.
+
+## Description
+
 ![](mazinger-z.png)
 
 This is a simple script to show the headlines from the RedHat Enable sysadmin website RSS feed.
